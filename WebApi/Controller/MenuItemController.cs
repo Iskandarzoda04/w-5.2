@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApi.Controllers;
 
 [ApiController]
-[Route("api/menu-items")]
+[Route("api/menuitems")]
 public class MenuItemController
 {
     private readonly IMenuItem _menuItemService = new MenuItemService();
